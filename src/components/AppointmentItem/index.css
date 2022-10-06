@@ -1,0 +1,35 @@
+.list-item {
+  width: 30%;
+  border: solid 1px #b5b7c4;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+@media screen and (max-width: 767px) {
+  .list-item {
+    width: 100%;
+  }
+}
+.list-star-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  height: 20px;
+}
+.profession {
+  padding: 0px;
+}
+.star-image {
+  height: 20px;
+}
+.date {
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+.btn-star {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
